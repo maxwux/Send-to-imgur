@@ -2,7 +2,7 @@ imgur script by Bart Nagel <bart at tremby.net>, acelan, maxwux <maxwux at gmail
 version 7
 Bart Nagel release this into the public domain. Do with it what you will.
 
-Required: curl
+Required: curl 
 
 Optional: xsel or xclip for automatically putting the URLs on the X selection
 for easy pasting
