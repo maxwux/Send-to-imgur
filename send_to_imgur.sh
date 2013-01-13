@@ -97,11 +97,9 @@ done
 if [ $DISPLAY ]; then
 		{ type xsel >/dev/null 2>/dev/null && echo -n $deleteurl | xsel -i -b; 
 		type xsel >/dev/null 2>/dev/null && echo -n $clip | xsel -i -b;
-		wget -P /tmp/ $url; 
 		notify-send "Done"; }\
 		|| { type xclip >/dev/null 2>/dev/null && echo -n $deleteurl | xclip -selection c;
 		type xclip >/dev/null 2>/dev/null && echo -n $clip | xclip -selection c;
-		wget -P /tmp/ $url;
 		notify-send "Done"; } \
 		|| echo "Haven't copied to the clipboard: no xsel or xclip" >&2
 else
