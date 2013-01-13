@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # imgur script by Bart Nagel <bart at tremby.net>, acelan, maxwux <maxwux at gmail.com>
-# version 6
+# version 7
 # I release this into the public domain. Do with it what you will.
 
 # Required: curl
