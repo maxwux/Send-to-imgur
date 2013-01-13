@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# imgur script by Bart Nagel <bart@tremby.net>, acelan, maxwux
+# imgur script by Bart Nagel <bart at tremby.net>, acelan, maxwux <maxwux at gmail.com>
 # version 6
 # I release this into the public domain. Do with it what you will.
 
